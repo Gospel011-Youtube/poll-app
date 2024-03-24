@@ -1,11 +1,12 @@
 
 class PollSource {
+
   static Map<String, dynamic> pollData = {
     "text": "What is your preferred platform for cross-platform mobile development?",
     "options": [
       {
         "option": "Flutter",
-        "votes": 50,
+        "votes": 20,
         "voted": false,
       },
       {
@@ -21,4 +22,5 @@ class PollSource {
       
     ],
   };
+  
 }
